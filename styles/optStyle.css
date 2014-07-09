@@ -1,0 +1,17 @@
+@CHARSET "ISO-8859-1";
+
+#lvlEasy, #lvlMedium, #lvlHard {
+	height:   45px; 
+	position: absolute; 
+	z-index:  900;
+	width:    234px;
+	left:     400px;
+}
+
+#scnFarm, #scnSea, #scnSafari {
+	height:   50px; 
+	position: absolute; 
+	z-index:  900;
+	width:    234px;
+	top:      555px
+}

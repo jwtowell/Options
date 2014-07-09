@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Options</title>
+	<script type="text/javascript" src="jscript/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/optStyle.css">
+</head>
+<body>
+    <!-- Background -->
+	<img src="images/menuscreen.png">
+	
+	<!-- Levels -->
+	<img id="lvlEasy"   src="images/levelselector.png" onclick="myLevel(1)" style="top: 67px;"></img>
+	<img id="lvlMedium" src="images/levelselector.png" onclick="myLevel(2)" style="top: 122px;"></img>
+	<img id="lvlHard"   src="images/levelselector.png" onclick="myLevel(3)" style="top: 176px; height: 43px;"></img>
+    
+    <!-- Scenes -->
+	<img id="scnFarm"   src="images/sceneselector.png" onclick="myScene(1)" style="Left: 80px;"></img>
+	<img id="scnSea"    src="images/sceneselector.png" onclick="myScene(2)" style="Left: 400px;"></img>
+	<img id="scnSafari" src="images/sceneselector.png" onclick="myScene(3)" style="Left: 715px;"></img>
+
+    
+	<button onclick="setImageDummy()" style="position: absolute; z-index: 900; height: 43px; width: 234px; left: 40px; top: 200px;">Action</button>
+
+	<body onload="optInit()">
+</body>
+</html>
